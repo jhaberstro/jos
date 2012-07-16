@@ -2,7 +2,7 @@ CC		= clang
 CFLAGS	= -Wall -Wextra -pedantic -m32 -O0 -std=c99 -finline-functions -fno-stack-protector -nostdinc -ffreestanding -Wno-unused-function -Wno-unused-parameter -g -ccc-host-triple i586-linux-elf
 LD		= cross/bin/i586-elf-ld
 
-OBJFILES = src/kernel/loader.o src/kernel/kmain.o src/kernel/io.o src/kernel/console.o
+OBJFILES = src/kernel/loader.o src/kernel/kmain.o src/kernel/io.o src/kernel/console.o src/kernel/gdt.o src/kernel/gdt_flush.o
 
 all: kernel.img
 
