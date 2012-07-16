@@ -1,0 +1,6 @@
+crossllvm/
+cross/
+grub*
+*.bin
+*.o
+*.img
