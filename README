@@ -1,0 +1,7 @@
+Author: Jedd Haberstro
+
+Description: A very incomplete operating systems. This is only for (my own) educational purposes. It can't do much yet. Essentially it can boot, setup the IDT and GDT, and print to VGA framebuffer.
+
+To build you'll need an elf ld (ie, if you're on OS X, you'll need to build your own gcc cross compiler).
+
+Only tested on OS X 10.7 and 10.8 using clang, and qemu.
